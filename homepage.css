@@ -1,15 +1,37 @@
+
 .simple-nav {
-    
-    color: #e77fdb; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #e77fdb;
     padding: 10px;
-    
-   
 }
 
-.simple-nav a:hover {
-    color: rgb(109, 97, 222); 
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #e77fdb;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
 body {
     background-image: url("https://www.ualberta.ca/youalberta/media-library/2023/03/skincare.jpg");
     backdrop-filter: blur(2px);
@@ -57,3 +79,39 @@ header {
     
 }
 
+.about{
+    border: 2px solid rgb(52, 27, 139);
+    background-color: rgb(151, 174, 224);
+    box-shadow: 4px 6px 3px grey;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.categories{
+    border: 2px solid rgb(52, 27, 139);
+    background-color: rgb(151, 174, 224);
+    box-shadow: 4px 6px 3px grey;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.review{
+    border: 2px solid rgb(52, 27, 139);
+    background-color: rgb(151, 174, 224);
+    box-shadow: 4px 6px 3px grey;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.special-offers{
+    border: 2px solid rgb(52, 27, 139);
+    background-color: rgb(151, 174, 224);
+    box-shadow: 4px 6px 3px grey;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
