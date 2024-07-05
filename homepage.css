@@ -81,7 +81,7 @@ header {
 
 .about{
     border: 2px solid rgb(52, 27, 139);
-    background-color: rgb(151, 174, 224);
+    background-color: rgb(230, 158, 238);
     box-shadow: 4px 6px 3px grey;
     margin: 15px;
     padding: 20px;
@@ -92,26 +92,35 @@ header {
 }
 .categories{
     border: 2px solid rgb(52, 27, 139);
-    background-color: rgb(151, 174, 224);
+    background-color: rgb(227, 141, 201);
     box-shadow: 4px 6px 3px grey;
     margin: 15px;
     padding: 20px;
     border-radius: 10px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
 
 }
 .review{
     border: 2px solid rgb(52, 27, 139);
-    background-color: rgb(151, 174, 224);
+    background-color: rgb(209, 135, 190);
     box-shadow: 4px 6px 3px grey;
     margin: 15px;
     padding: 20px;
     border-radius: 10px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 .special-offers{
     border: 2px solid rgb(52, 27, 139);
-    background-color: rgb(151, 174, 224);
+    background-color: rgb(220, 142, 213);
     box-shadow: 4px 6px 3px grey;
     margin: 15px;
     padding: 20px;
     border-radius: 10px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
